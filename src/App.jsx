@@ -78,12 +78,12 @@ function App() {
         {learnerData.learners.map((learner, index) => (
           // rendering the learners info 
           <div key={index} className="learner">
-            <h2>Learner Data</h2>
+            <h2 style={{ color: 'lightblue'}}>Learner Data</h2>
             <p className="learner-name">{learner.name}</p>
             <p>{learner.bio}</p>
 
 
-            <h2>Scores Data</h2>
+            <h2 style={{ color: 'lightblue'}}>Scores Data</h2>
             <div className="ScoresInfo">
               <ul>
               {learner.scores.map((score, scoreIndex) => (
